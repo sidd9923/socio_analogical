@@ -19,3 +19,4 @@ export PYTHONPATH=$PYTHONPATH:$PWD
 
 #Ray
 Used for core-distributed runtimes
+Ray can't directly handle methods from a class with self references as remote tasks unless they are properly annotated.

@@ -18,6 +18,7 @@ gunicorn
 boto3
 semanticscholar
 networkx
+tqdm
 multiprocessing
 
 # Notebook
